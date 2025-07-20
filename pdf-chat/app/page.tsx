@@ -21,10 +21,10 @@ export default function WelcomePage() {
               </div>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-blue-300 to-purple-400 bg-clip-text text-transparent">
-              Gemini PDF Chat
+              ShadowBot
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Chat with Gemini AI and get intelligent answers from your PDF documents
+              Chat with ShadowBot and get intelligent answers from your PDF documents
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export default function WelcomePage() {
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <Card className="bg-gray-900/50 border-gray-800 hover:border-blue-500/50 transition-colors">
               <CardHeader>
-                <MessageCircle className="w-8 h-8 text-blue-400 mb-2" />
+                <MessageCircle className="w-8 h-8 text-blue-400" />
                 <CardTitle className="text-white">Smart Conversations</CardTitle>
                 <CardDescription className="text-gray-400">
                   Engage in intelligent conversations powered by Google&apos;s Gemini AI
@@ -42,7 +42,7 @@ export default function WelcomePage() {
 
             <Card className="bg-gray-900/50 border-gray-800 hover:border-blue-500/50 transition-colors">
               <CardHeader>
-                <FileText className="w-8 h-8 text-blue-400 mb-2" />
+                <FileText className="w-8 h-8 text-blue-400" />
                 <CardTitle className="text-white">PDF Analysis</CardTitle>
                 <CardDescription className="text-gray-400">
                   Upload PDFs and ask questions about their content
@@ -52,7 +52,7 @@ export default function WelcomePage() {
 
             <Card className="bg-gray-900/50 border-gray-800 hover:border-blue-500/50 transition-colors">
               <CardHeader>
-                <Sparkles className="w-8 h-8 text-blue-400 mb-2" />
+                <Sparkles className="w-8 h-8 text-blue-400" />
                 <CardTitle className="text-white">Instant Insights</CardTitle>
                 <CardDescription className="text-gray-400">
                   Get immediate answers and insights from your documents
@@ -68,7 +68,6 @@ export default function WelcomePage() {
                 Start Chatting
               </Button>
             </Link>
-            <p className="text-gray-400 text-sm">No registration required • Free to use</p>
           </div>
         </div>
       </div>
